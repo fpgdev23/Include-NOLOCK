@@ -3,15 +3,15 @@ import re
 import logging
 
 # --- Configurações do Banco ---
-SERVER = 'preencha o endereço do servidor'
-DATABASE = 'preencha o nome do banco de dados'
-USER = 'preencha o usuário'
-PASSWORD = 'preencha a senha'
+SERVER = '10.158.0.94'
+DATABASE = 'FPG_MATRIZ_JAR_3.8'
+USER = 'paloma'
+PASSWORD = '020324Ip@'
 
 # Tabela e Colunas
-TABELA = 'preencha o nome da tabela'
-COLUNA_ID = 'preencha o nome da coluna de ID'
-COLUNA_SQL = 'preencha o nome da coluna que contém o SQL'
+TABELA = 'FR_FONTEDADOS'
+COLUNA_ID = 'FNT_CODIGO'
+COLUNA_SQL = 'FNT_SQLSELECT'
 
 # --- Configuração de Logs ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
